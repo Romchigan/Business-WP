@@ -2,7 +2,7 @@
 
 ### Wordpress settings
 login: romchigan
-***
+
 pass: romchigan
 
 ### MySQL database settings
