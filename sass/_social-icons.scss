@@ -1,0 +1,68 @@
+.wrap-btn-social {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #585858;
+    font: 14px/28px OpenSans;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-left: 15px;
+    & .social {
+        margin: 20px 10px;
+        text-align: center;
+        & .smGlobalBtn{
+            display: inline-block;
+            position: relative;
+            cursor: pointer;
+            width: 50px;
+            height: 50px;
+            box-shadow: 0 2px 2px #999;
+            padding: 0;
+            text-decoration: none;
+            text-align: center;
+            color: $white;
+            font-size: 25px;
+            font-weight: normal;
+            line-height: 2em;
+            border-radius: 25px;
+            -moz-border-radius:25px;
+            -webkit-border-radius:25px;
+            margin-left: 10px;
+        }
+        & .facebookBtn{
+            background: #4060A5;
+            &:before{
+                font-family: "FontAwesome";
+                content: "\f09a";
+            }
+            &:hover{
+                color: #4060A5;
+                background: $white;
+            }
+        }
+        .twitterBtn{
+            background: #00ABE3;
+            &:before{
+                font-family: "FontAwesome";
+                content: "\f099";
+            }
+            &:hover{
+                color: #00ABE3;
+                background: $white;
+            }
+        }
+        .googleplusBtn{
+            background: #e64522;
+            &:before{
+                font-family: "FontAwesome";
+                content: "\f0d5";
+            }
+            &:hover{
+                color: #e64522;
+                background: $white;
+            }
+        }
+    }
+}
+
+

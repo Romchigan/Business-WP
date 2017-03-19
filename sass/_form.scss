@@ -1,0 +1,22 @@
+.form-contact {
+    margin: 45px 0 0;
+}
+
+.input-contact {
+    background-color: transparent;
+    border: 0;
+    border-bottom: solid 1px #dce3e8;
+    font-size: 14px/24px OpenSans;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #757c81;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+    padding-left: 0;
+    resize: none;
+    &:focus {
+        background-color: transparent;
+        border: 0;
+        border-bottom: solid 1px #dce3e8;
+    }
+}

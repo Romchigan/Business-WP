@@ -1,0 +1,25 @@
+.blog-heading {
+    color: $dark-gray;
+    font: 18px/24px Raleway-bold;
+    font-weight: 700;
+    text-transform: uppercase;
+    @media only screen and (max-width: 479px) and (min-width: 320px){
+        padding-top: 15px;
+        padding-left: 25px;
+    }
+    a {
+        text-decoration: none;
+        color: $dark-gray;
+    }
+}
+
+.info-posted {
+    color: #757575;
+    font: 13px/24px Proxima Nova;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 5px 0 35px;
+    @media only screen and (max-width: 479px) and (min-width: 320px){
+        padding-left: 25px;
+    }
+}

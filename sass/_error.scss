@@ -1,0 +1,29 @@
+.wrap-error {
+  margin: 230px auto 240px;
+}
+
+.head-error {
+  color: $black;
+  font: 72px/72px OpenSans;
+  text-transform: uppercase;
+  width: 400px;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+
+.number-error {
+  color: $blue;
+  font-weight: 900;
+}
+
+.error-message {
+  color: $dark-gray;
+  font: 12px/24px Raleway-bold;
+  text-transform: uppercase;
+  width: 530px;
+  background-color: $orange;
+  border-radius: 40px;
+  margin: 0 auto;
+  padding: 10px 0;
+  letter-spacing: 1px;
+}

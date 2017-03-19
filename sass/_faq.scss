@@ -1,0 +1,108 @@
+.faq-list {
+    width: 485px;
+    margin-top: 60px;
+}
+
+.head-list {
+    color: $dark-gray;
+    font: 16px/24px Raleway-bold;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.text-list {
+    color: #585858;
+    font: 14px/28px OpenSans;
+    font-weight: 400;
+}
+
+.wrap-list .faq-list {
+    margin-left: 50px;
+}
+
+.wrap-list ul{
+    counter-reset: myCounter;
+}
+
+.wrap-list li{
+    position: relative;
+
+}
+
+.wrap-list li:before {
+    counter-increment: myCounter;
+    content:counter(myCounter);
+    color: $dark-gray;
+    font: 700 13px OpenSans-bold;
+    display: inline-block;
+    text-align: center;
+    margin: 0 5px;
+    line-height: 40px;
+    width: 40px;
+    z-index: 2;
+    position: absolute;
+    left: -60px;
+    top: -6px;
+}
+
+.wrap-list li:after {
+    content: '';
+    background-color: $orange;
+    margin: 7px 15px;
+    width: 22px;
+    height: 22px;
+    transform: rotate(45deg);
+    position: absolute;
+    left: -60px;
+    top: -5px;
+    z-index: 1;
+}
+
+
+.column {
+    -webkit-column-count:2;
+    -moz-column-count:2;
+    column-count:2;
+    -webkit-column-gap: 30px;
+    -moz-column-gap: 30px;
+    column-gap: 60px;
+}
+
+.search {
+    background-color: #eaeff3;
+    margin-top: 100px;
+    padding-top: 100px;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.center-input {
+   margin: 0 auto;
+}
+
+.form-search {
+    margin: 30px auto 0;
+}
+
+.input-text {
+    color: darkgrey;
+    font: 400 14px OpenSans;
+    padding: 15px 0 15px 25px;
+}
+
+.input-group-addon {
+    padding: 15px 16px;
+    background-color: $orange;
+    color: #2a2b2c;
+    font: 400 15px/28px;
+    &:hover {
+        background-color: $blue;
+        color: $white;
+    }
+}
+
+.margin-btn-contact {
+    margin: 60px 0 110px;
+}

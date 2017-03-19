@@ -1,0 +1,93 @@
+.margin-news {
+  margin: 100px auto 40px;
+}
+
+.wrap-news {
+  padding-bottom: 100px;
+  position: relative;
+  &:before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 165px;
+    height: 0;
+    border-top: 21px solid $orange;
+    border-left: 21px solid transparent;
+    border-right: 21px solid $orange;
+    border-bottom: 21px solid $orange;
+  }
+  &:after {
+    position: absolute;
+    color: $dark-gray;
+    font: 700 13px/24px OpenSans-bold;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    top: 10px;
+    left: 35px;
+  }
+  &-first {
+    &:after {
+      content: "october-20-05";
+    }
+  }
+  &-second {
+    &:after {
+      content: "october-22-05";
+    }
+  }
+  &-third {
+    &:after {
+      content: "october-24-05";
+    }
+  }
+  &-fourth {
+    &:after {
+      content: "october-26-05";
+    }
+  }
+}
+.heading-news {
+  color: $dark-gray;
+  font: 700 16px Raleway-extrabold;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+
+.info-news {
+  color: #585858;
+  font: 400 14px/28px OpenSans;
+}
+
+.wrap-info-news .info-check-list {
+  color: $dark-gray;
+  font: 700 12px OpenSans-bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.wrap-info-news .info-check-list ul {
+  line-height: 30px;
+}
+
+.section-light-blue {
+  background-color: #eaeff3;
+  padding-top: 100px;
+}
+
+.padding-news {
+  padding-top: 100px;
+}
+
+.padding-img {
+  padding-right: 10px;
+}
+
+.wrap-img-news {
+  display: flex;
+  padding-top: 30px;
+}
+
+.section-light-blue-second {
+  background-color: #eaeff3;
+  padding: 100px 0 40px;
+}

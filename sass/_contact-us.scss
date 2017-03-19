@@ -1,0 +1,72 @@
+.wrap-blog-contact {
+    margin-top: 15px;
+    padding-left: 0;
+    padding-right: 0;
+    overflow: hidden;
+}
+
+.margin-name-contact {
+    margin: 100px 0 10px;
+}
+
+/*btn phone*/
+.contact-phone {
+    font: 16px OpenSans, sans-serif;
+    font-weight: 600;
+    padding-top: 20px;
+    margin-right: 140px;
+    a {
+        color: $black;
+        text-decoration: none;
+    }
+    :hover {
+        color: $orange;
+    }
+    & .fa-phone {
+        color: $orange;
+        font-size: 14px;
+    }
+
+}
+
+.background-img {
+    background: $black;
+    overflow: hidden;
+    height: 350px;
+    display: block;
+    margin: 40px 0 0;
+}
+
+.img-blog {
+    opacity: 0.4;
+}
+
+.head-img {
+    color: $orange;
+    font: 30px/24px Raleway;
+    font-weight: 800;
+    text-transform: uppercase;
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    margin-bottom: 20px;
+}
+
+.text-img {
+    color: $white;
+    font: 16px/24px Raleway;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: absolute;
+    top: 190px;
+    left: 100px;
+}
+
+.contact-from {
+    background-color: #eaeff3;
+    margin-top: 100px;
+}
+
+.margin-head-form {
+    margin: 90px 0 10px;
+}

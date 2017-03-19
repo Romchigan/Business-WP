@@ -1,0 +1,47 @@
+.pyramids {
+    position: relative;
+    &:before {
+        width: 0;
+        height: 0;
+        border-left: 80px solid transparent;
+        border-right: 80px solid transparent;
+        border-bottom: 100px solid $blue;
+        z-index: 1;
+        position: absolute;
+        content: '';
+    }
+    &:after {
+        width: 0;
+        height: 0;
+        border-left: 55px solid transparent;
+        border-right: 55px solid transparent;
+        border-bottom: 70px solid $orange;
+        z-index: 2;
+        position: absolute;
+        content: '';
+    }
+    &-right {
+        &:before {
+            right: 65px;
+            bottom: 0;
+            top: -100px;
+        }
+        &:after {
+            right: 5px;
+            bottom: 0;
+            top: -70px;
+        }
+    }
+    &-left {
+        &:before {
+            left: 5px;
+            bottom: 0;
+            top: -100px;
+        }
+        &:after {
+            left: 80px;
+            bottom: 0;
+            top: -70px;
+        }
+    }
+}

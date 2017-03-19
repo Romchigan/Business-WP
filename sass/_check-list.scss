@@ -1,0 +1,19 @@
+.info-check-list {
+  color: #585858;
+  font: 400 14px/24px OpenSans;
+}
+
+.info-check-list li {
+  list-style-type: none;
+}
+
+.info-check-list ul {
+  padding-left: 0;
+  line-height: 36px;
+}
+
+.info-check-list li:before {
+  font-family: FontAwesome;
+  content: "\f00c";
+  padding-right: 15px;
+}

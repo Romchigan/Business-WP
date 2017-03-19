@@ -1,0 +1,86 @@
+.btn {
+    padding: 18px 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 2px solid $orange;
+    background-color: transparent;
+    text-align: right;
+    border-radius: 0;
+    &:focus{
+        outline: none;
+    }
+    &-orange {
+        color: $orange;
+        font: 13px Raleway-bold;
+        &:hover {
+            background-color: $orange;
+            color: $black;
+        }
+        &-black-text {
+            color: $dark-gray;
+            font: 700 13px/24px Raleway-bold;
+            background-color: $orange;
+            &:hover {
+                background-color: transparent;
+                color: $white;
+            }
+            &:focus {
+                border: 2px solid $orange;
+            }
+        }
+    }
+
+    &-inf {
+        color: $dark-gray;
+        font: 16px/24px Raleway-bold;
+        &:hover {
+            background-color: $orange;
+        }
+    }
+
+    &-aply {
+        color: #1c1c1c;
+        font: 700 13px/24px Raleway-bold;
+        background-color: #ffaf36;
+        &:hover {
+            background-color: transparent;
+        }
+        &:focus {
+            border: 2px solid $orange;
+        }
+    }
+
+    &-submit {
+        color: $orange;
+        font: 13px/24px Raleway-bold;
+        padding: 15px 30px;
+        &:hover {
+            background-color: $orange;
+            color: $black;
+
+        }
+        &:active {
+            background-color: $orange;
+            color: $black;
+        }
+    }
+    &-client {
+        padding: 18px 42px;
+        margin-left: 30px;
+    }
+}
+
+.margin-submit-form {
+    margin-bottom: 100px;
+}
+
+.margin-btn-read {
+    margin-top: 20px;
+    @media only screen and (max-width: 479px) and (min-width: 320px){
+        margin-left: 30px;
+    }
+}
+
+.margin-submit-footer {
+    margin: 10px 0 100px;
+}

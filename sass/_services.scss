@@ -1,0 +1,85 @@
+.margin-service-more {
+  margin: 100px auto 70px;
+}
+
+.section-boosting-business {
+  padding-bottom: 100px;
+}
+
+.services-more-left {
+  position: relative;
+  &:hover {
+    color: $orange;
+  }
+  &:before {
+    font-family: 'simple-line-icons';
+    position: absolute;
+    left: 10px;
+    top: -40px;
+    font-size: 190px;
+  }
+  &-first:before {
+    content: "\e05c";
+  }
+  &-second:before {
+    content: "\e090";
+  }
+
+}
+
+.services-more-right {
+  position: relative;
+  &:hover {
+    color: $orange;
+  }
+  &:before {
+    font-family: 'simple-line-icons';
+    position: absolute;
+    right: 15px;
+    top: -40px;
+    font-size: 190px;
+  }
+  &-first:before {
+    content: "\e005";
+  }
+  &-second:before {
+    content: "\e081";
+  }
+}
+
+.heading-services-more {
+  color: $dark-gray;
+  font: 700 16px/24px Raleway-bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.info-services-more {
+  color: #585858;
+  font: 400 14px/28px OpenSans;
+  padding-bottom: 50px;
+}
+
+.section-support {
+  background-color: #eaeff3;
+  width: 100%;
+  padding-bottom: 100px;
+}
+
+.wrap-support {
+  padding-top: 100px;
+}
+
+.section-analyzing {
+  padding: 100px 0;
+}
+
+.section-time-managment {
+  background-color: #eaeff3;
+  width: 100%;
+  padding-bottom: 100px;
+}
+
+.wrap-managment {
+  padding-top: 100px;
+}

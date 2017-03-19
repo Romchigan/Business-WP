@@ -1,0 +1,177 @@
+.banner-background{
+    background: $black;
+    overflow: hidden;
+    height: 400px;
+    display: block;
+    @media only screen and (max-width: 479px) and (min-width: 320px){
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+.banner-img {
+    width: 100%;
+    display: block;
+    opacity: 0.4;
+    min-height: 400px;
+    @media only screen and (max-width: 479px) and (min-width: 320px){
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+.wrap-header {
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    z-index: 3;
+    border-bottom: 1px solid rgba(221, 228, 234, 0.15);
+    left: 0;
+    right: 0;
+    top: 25px;
+    padding-bottom: 80px;
+    @media only screen and (max-width: 479px) and (min-width: 320px){
+        top: 0;
+        padding-left: 15px;
+    }
+}
+
+@media only screen and (max-width: 479px) and (min-width: 320px) {
+    .navbar-nav .nav-item:first-child {
+        margin-left: 40px;
+    }
+    .navbar-toggleable-md .navbar-nav {
+        margin: 0;
+    }
+}
+
+.icon-menu {
+    border: none;
+    background-color: transparent;
+    color: $white;
+    font-size: 30px;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+
+.navbar-brand + .collapsed {
+    color: $white;
+}
+
+.logo-header {
+    border-right: 1px solid rgba(255, 255, 255, 0.15);
+    padding-right: 20px;
+}
+
+.nav {
+    padding-top: 10px;
+    @media only screen and (max-width: 479px) and (min-width: 320px) {
+        padding-top: 0;
+    }
+}
+
+.navbar-light .navbar-nav a {
+    color: rgba(255, 255, 255, 1);
+    font: 600 14px/24px OpenSans, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    &:hover {
+        color: $orange;
+    }
+    &:focus {
+        color: $orange;
+    }
+    @media only screen and (max-width: 479px) and (min-width: 320px) {
+        font: 600 12px/18px OpenSans, sans-serif;
+    }
+}
+.navbar-nav .nav-item+.nav-item {
+    margin-left: 40px;
+}
+
+.navbar-light .navbar-nav .active>a{
+    color: $orange;
+    font-weight: 600;
+    &:hover {
+        color: $orange;
+        font-weight: 600;
+    }
+    &:focus {
+        color: $orange;
+        font-weight: 600;
+    }
+}
+
+.phone {
+    font: 14px OpenSans, sans-serif;
+    font-weight: 600;
+    padding-top: 20px;
+    a {
+        color: $white;
+        text-decoration: none;
+    }
+    :hover {
+        color: $orange;
+    }
+    @media only screen and (max-width: 479px) and (min-width: 320px) {
+        position: absolute;
+        left: 20px;
+        top: 35px;
+    }
+}
+
+.fa-phone {
+    color: $orange;
+    font-size: 14px;
+}
+
+.navbar-nav {
+    float: right;
+    @media only screen and (max-width: 479px) and (min-width: 320px) {
+        padding-right: 20px;
+        padding-top: 65px;
+    }
+}
+
+.nav-item:hover {
+    .nav-submenu {
+        display: block;
+    }
+}
+
+.nav-submenu {
+    font-weight: 600;
+    text-transform: uppercase;
+    display: none;
+    position: absolute;
+    width: 170px;
+    list-style-type: none;
+    background-color: $orange;
+    padding-left: 0;
+    @media only screen and (max-width: 479px) and (min-width: 320px) {
+        right: 120px;
+        bottom: 30px;
+        width: 100px;
+    }
+    &-item a {
+        text-decoration: none;
+        color: $black;
+        width: 170px;
+        padding: 10px 130px 10px 10px;
+        @media only screen and (max-width: 479px) and (min-width: 320px) {
+            padding: 10px;
+        }
+    }
+    &-item {
+        padding: 10px 0;
+        &:hover {
+            background-color: $white;
+        }
+        @media only screen and (max-width: 479px) and (min-width: 320px) {
+            padding: 0;
+            font-size: 12px;
+        }
+    }
+}

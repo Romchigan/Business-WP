@@ -1,0 +1,86 @@
+.text-about-us {
+    color: #585858;
+    font: 400 14px/28px OpenSans;
+    margin: 35px 0 80px;
+}
+
+.background-img-about-us {
+    background: $black;
+    overflow: hidden;
+    height: 350px;
+    display: block;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+.img-blog-about-us {
+    opacity: 0.4;
+}
+
+.wrap-btn-about-us {
+    position: absolute;
+    top: 175px;
+    left: 405px;
+}
+
+.section-our-views {
+    width: 100%;
+    background-color: #eaeff3;
+}
+
+.margin-our-mission {
+    margin: 30px 0 50px;
+}
+
+.heading-our-views {
+    color: $dark-gray;
+    font: 700 16px/24px Raleway-extrabold;
+    text-transform: uppercase;
+    margin: 30px 0 15px;
+}
+
+.info-our-views {
+    color: #585858;
+    font: 400 14px/28px OpenSans;
+    width: 790px;
+}
+
+
+.padding-our-vision {
+    padding-left: 60px;
+}
+
+.padding-our-views {
+    padding-bottom: 80px;
+}
+
+.background-our-views {
+    background: $black;
+    overflow: hidden;
+    display: block;
+    width: 260px;
+    height: 175px;
+}
+
+
+.img-our-views {
+    opacity: 0.75;
+}
+
+.wrap-clients {
+    margin: 40px auto 200px;
+
+}
+
+.wrap-img-clients {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img-clients {
+    width: 190px;
+    height: 190px;
+    border: 1px solid #eaeff3;
+    display: flex;
+}
+
