@@ -1,18 +1,5 @@
 # Business Plus - Wordpress Theme
 
-### Wordpress settings
-login: romchigan
-
-pass: romchigan
-
-### MySQL database settings
-'DB_NAME', 'businessPlus'
-
-'DB_USER': root
-
-'DB_PASSWORD': 323534
-
-
 ## Getting Started
 ***
 
